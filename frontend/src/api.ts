@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Event } from './types/event';
 
-const API_BASE = 'http://localhost:4000/api/events';
+const API_BASE = 'https://mini-event-finder-2i16.onrender.com/api/events';
 
 // Add this type
 export type EventInput = Omit<Event, 'id'>;
